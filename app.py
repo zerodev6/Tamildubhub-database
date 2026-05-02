@@ -28,8 +28,8 @@ app.config['JSONIFY_PRETTYPRINT_REGULAR'] = False
 app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 31536000  # 1 year cache for static files
 
 # --- Configuration ---
-MONGODB_URI = os.environ.get('MONGODB_URI') or "mongodb+srv://<user>:<password>@<cluster>.mongodb.net/<dbname>?retryWrites=true&w=majority"
-DB_NAME = os.environ.get('DB_NAME') or "mediadb"
+MONGODB_URI = "mongodb+srv://Hdmoviehutcloud:zero8907@cluster0.hsfwk49.mongodb.net/?appName=Cluster0"
+DB_NAME = "mediadb"
 TMDB_API_KEY = "52f6a75a38a397d940959b336801e1c3"
 ADMIN_USERNAME = "venura"
 ADMIN_PASSWORD_HASH = generate_password_hash("venura")
